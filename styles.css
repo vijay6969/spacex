@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+    color: green;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/*
+Challenge 2:
+Select the logo using its "id", and reduce its
+width to a suitable level.
+*/
+#title {
+    text-shadow: 0px 0px 4px black;
+}
+
+#hero {
+	background-image: url("images/galaxy.webp");
+    background-size: cover;
+	padding: 10px 0 40px 0;
+}
+#main-logo {
+	width: 100px;
+}
+
+.btn {
+    padding: 6px 12px;
+    background: white;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+	font-weight: 800;
+}
+
+.underline {
+    border-bottom: 4px solid white;
+}
